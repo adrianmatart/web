@@ -1,6 +1,13 @@
 #wrapper { 
 width: 960px;
-margin: 0 auto; }
+margin: 0 auto; 
+font-family: Helvetica; 
+}
+
+* { 
+box-sizing: border-box; 
+}
+
 
 header {
 	background-image: url(../image/caffeh.jpg);
@@ -17,24 +24,53 @@ h1 {
 }
 nav { 
 text-align: center;
-background-color: #106D34;
+background-color: #4F2E1F;
 color: white;
-font-weight: bold;
+font-family: Helvetica;
 
  }
 
  nav ul li {
- 	display: inline-block;
-
-
-
+ 	display: inline;
+ 	
  }
+
+
+a:link, a:visited{
+	
+
+}
  a:hover, a:active {
  	background-color: white;
  	color:#106D34;
- }
+ 	}
 a { 
 text-decoration: none;
 color: white; 
-width: 170px;
+padding: 20px 30px;
 }
+
+article { 
+width: 49%;
+float: left;
+padding: 15px;
+color: #4F2E1F
+ }
+
+h2 {
+	font-size: 21px;
+	color: #106D34;
+	margin: 15px 0px 5px 0px;
+
+}
+
+footer p  { 
+color: white;
+font-family: Helvetica;
+padding: 5px;
+}
+
+footer {
+clear: both; 
+	background-color: #4F2E1F; 
+	 }

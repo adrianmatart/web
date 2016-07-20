@@ -1,0 +1,109 @@
+#wrapper {
+	width: 960px;
+	max-width: 100%;
+	margin: auto;
+	font-family: Helvetica;
+}
+header { 
+background: url(../image/uhu.jpg) no-repeat center;
+ background-size: cover;}
+header img { 
+width: 200px;
+height: 200px;
+display: block;
+margin: auto;
+margin-top: 10px;
+ }
+ nav a { 
+ text-decoration: none;
+ color: #54CDFB; }
+
+nav a:link, nav a:visited {
+
+}
+nav a:hover, nav a:active { 
+	color: #D30CFD;
+
+}
+nav ul li {
+display: inline;
+margin: 20px;
+
+ }
+nav { 
+text-align: center;
+max-width: 100%;
+ }
+h1 {
+	font-size: 3em; 
+}
+
+h2 {
+	font-size: 2em;
+	font-weight: bold;
+	color: #D30CFD;
+	margin-bottom: 10px;
+}
+aside {
+	float: left;
+	max-width: 28%;
+	border: 2px solid violet;
+	padding: 8px;
+	margin-left: 20px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+aside ul {
+	margin:15px;
+	text-align: center;
+
+}
+aside ul li {
+	color: #547CFF;
+
+}
+section {
+	float: left;
+	max-width: 60%;
+	margin-top: 10px;
+}
+footer {
+	max-width: 100%;
+	clear: both;
+	 color: #D30CFD;
+}
+h3 {
+	text-align: center;
+	font-weight: bold;
+	color: violet;
+}
+button {
+	background-color: black;
+	color: white;
+	background-image: url(../image/sol.jpg);
+	background-size: cover;
+}
+img {
+	display: block;
+	margin: auto;
+
+}
+
+article { 
+margin-bottom: 10px; 
+color: #54CDFB; }
+article img {
+	width: 300px;
+	height: 300px;
+	max-width: 100%;
+	margin: 10px;
+}
+
+@media screen and (max-width: 800px) { 
+	aside {float: none; 
+		margin: auto;}
+	li {display: block;}
+	section {float: none; 
+		max-width: 90%; 
+		margin: auto;}
+} 
