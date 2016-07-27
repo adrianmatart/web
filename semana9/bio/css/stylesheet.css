@@ -1,0 +1,101 @@
+#wrapper {
+	width: 960px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+h1 {
+	font-size: 4em;
+	font-family: Helvetica, Sans-serif;
+	color: white;
+	text-align: center;
+	background-color: #81D8D0;
+}
+header {
+margin-bottom: 20px;
+}
+
+section img {
+	float: left;
+}
+h2 {
+	font-size: 3em;
+	color: #81D8D0;
+	text-align: center;
+	margin-top: 30px;
+	padding-top: 10px;
+	margin-right: 45px;
+
+}
+button {
+	background-image: url(../image/fanzy.jpg);
+	background-size: cover;
+	color: white;
+	padding: 10px;
+}
+p {
+	color: #84B7FF;
+	font-size: 1.4em;
+	padding: 20px 50px 20px 50px;
+	text-align: justify;
+
+}
+
+ article {
+ 	color: #84B7FF;
+ 	clear: both;
+ 	font-size: 1.4em;
+ 	text-align: justify;
+
+ }
+
+ .images img {
+ 	width: 300px;
+ 	height: 300px;
+ 	display: block;
+ 	}
+.image {
+	max-width: 100%;
+	margin: auto;
+
+}
+footer {
+	clear: both;
+	padding-top: 20px;
+
+
+}
+
+footer img {
+	display: block;
+	margin: auto;
+	width: 960px;
+
+}
+.silver {
+	width: 305px;
+	float: left;
+}
+
+.silver button {
+	display: block;
+	margin: auto;
+}
+nav {
+	text-align: center;
+	
+}
+li {
+	display: inline;
+
+}
+
+a {
+	text-decoration: none;
+	color: #81D8D0;
+	padding: 10px;
+	border: 1px solid #81D8D0;
+}
+
+a:hover, a:active{
+	border:none;
+}
