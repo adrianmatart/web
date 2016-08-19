@@ -99,3 +99,11 @@ a {
 a:hover, a:active{
 	border:none;
 }
+
+iframe {
+	margin: 0 auto;
+	display: block;
+	margin-top: 10em;
+	padding: 20px;
+	
+}
